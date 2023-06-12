@@ -49,26 +49,49 @@ fn main() {
     // println!("{}", array2[0]);
     // println!("{}", array2[3]);  // panic
 
-    let mut nums = vec![1, 2, 3];
+    // let mut nums = vec![1, 2, 3];
+    // 
+    // nums.push(4);
+    // println!("{:?}", nums);
+    // 
+    // nums.pop();
+    // println!("{:?}", nums);
+    // 
+    // let mut vec = Vec::new();
+    // vec.push("Test");
+    // vec.push("String");
+    // println!("{:?}", vec);
+    // 
+    // vec.reverse();
+    // println!("{:?}", vec);
+    // 
+    // let mut vect = Vec::<i32>::with_capacity(2);
+    // println!("{:?}", vect);
+    // println!("{}", vect.capacity());
 
-    nums.push(4);
-    println!("{:?}", nums);
+    // let v: Vec<i32> = (0..5).collect();
+    // println!("{:?}", v);
 
-    nums.pop();
-    println!("{:?}", nums);
+    // let sv: &[i32] = &v[2..4];
+    // println!("{:?}", sv);
 
-    let mut vec = Vec::new();
-    vec.push("Test");
-    vec.push("String");
-    println!("{:?}", vec);
+    // let name = String::from("jerok");
+    // let favorite = "Rust".to_string();
+    // let new_name = name.replace("jerok", "jr");
+    // 
+    // println!("{}", name);
+    // println!("{}", favorite);
+    // println!("{}", new_name);
+    // 
+    // // &str = "string slice"
+    // let str1 = "hello";  // &str
+    // let str2 = str1.to_string();
+    // let str3 = str2.as_str();
+    // let str3 = &str2;
+    // 
+    // // compare string == !=
+    // println!("{}", "ONE".to_lowercase() == "one");
 
-    vec.reverse();
-    println!("{:?}", vec);
-
-    let mut vect = Vec::<i32>::with_capacity(2);
-    println!("{:?}", vect);
-    println!("{}", vect.capacity());
-
-    let v: Vec<i32> = (0..5).collect();
-    println!("{:?}", v);
+    // let rust = "\x52\x75\x73\x74";
+    // println!("{}", rust);
 }
