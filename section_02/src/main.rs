@@ -1,6 +1,6 @@
 use std::ops::Add;
 
-/// Section 2 - assessment
+/// Section 2 - assignment
 
 fn main() {
     // 1
