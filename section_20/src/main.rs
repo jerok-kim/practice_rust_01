@@ -37,10 +37,25 @@ fn hanoi(n: i32) -> i32 {
     2 * hanoi(n - 1) + 1
 }
 
+fn sum_triangle_of_array(n: &Vec<i32>) {
+    if n.len() < 1 {
+        return;
+    }
+    
+    let mut vec = vec![];
+    for i in 0..(n.len() - 1) {
+        vec.push(n[i] + n[i + 1]);
+    }
+
+    sum_triangle_of_array(&vec);
+    println!("{:?}", n);
+}
+
 fn main() {
     // println!("{}", factorial(5));
     // println!("{}", fibonacci(6));
     // println!("{}", palindrome("hello"));
     // println!("{}", palindrome("123454321"));
-    println!("{}", hanoi(3));
+    // println!("{}", hanoi(3));
+    sum_triangle_of_array(&vec![1, 2, 3, 4, 5]);
 }
